@@ -1,0 +1,36 @@
+.column{
+    flex-basis: 100%;
+}
+.column__basics{
+    flex-basis: calc(100% / 3);
+}
+.column__content{
+    padding: 10px;
+    overflow-y: scroll;
+    height:80vh;
+}
+.column__content p, .column__content h3{
+    color: #3b3b3b;
+}
+
+.header__column{
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 1px solid #a8a8a8;
+}
+@media (max-width: 500px) {
+    .column__content{
+        height: auto;
+    }
+    .column{
+        margin-top: 15px;
+    }
+    .header__column{
+        background: #107055;
+        color: #eef0f0;
+        border-radius: 5px;
+    }
+}

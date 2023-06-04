@@ -1,0 +1,14 @@
+.container{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 500px) {
+    .container{
+        flex-direction: column;
+    }
+
+}

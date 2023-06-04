@@ -1,0 +1,20 @@
+.card{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2px 12px;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+.card:hover{
+    background: #e8e8e8;
+}
+.card.active{
+    background: #107055;
+    color: #eef0f0;
+}
+.card.active h3{
+    color: #eef0f0;
+}
+.card.active p{
+    color: #eef0f0;
+}
